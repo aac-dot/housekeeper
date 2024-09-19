@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: c66c881d-3257-40bf-ae56-9d9f556b9e8a
+  loglevel: INFO
+  name: First Job
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: first job
+    keepgoing: false
+    strategy: node-first
+  uuid: c66c881d-3257-40bf-ae56-9d9f556b9e8a
+
